@@ -20,6 +20,6 @@ Before implementing ACL rules and VLAN segmentation, all networks were able to c
 ##### JUMP SERVER TO HMI AND SCADA
 ![Ping after Jump Server](../Evidence/pingafterJUMPSERVER.png)
 ##### HMI TO JUMP SERVER
-![Ping after OT](Evidence/pingafterOT.png)
+![Ping after OT](../Evidence/pingafterOT.png)
 
 After implementing ACL rules and VLAN segmentation, inter-VLAN communication has failed.Connectivity tests indicate that devices on the JUMP SERVER network cannot reach devices on the OT network.
