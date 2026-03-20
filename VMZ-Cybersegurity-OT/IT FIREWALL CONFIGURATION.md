@@ -10,12 +10,12 @@ The router allows users on the **.10.0** network to access port 22 (SSH) on a sp
 ## **BEFORE ACL AND VLANS**
 ##### IT TO HMI,SCADA AND JUMP SERVER
 
-![[pingbeforeIT.png]]
+![Ping test IT](../Evidence/pingbeforeIT.png)
 
 Before implementing ACL rules and VLAN segmentation, all networks were able to communicate without restrictions.Connectivity test show that devices from the IT network could directly reach devices in the OT network.
 
 ## **AFTER ACL AND VLANS**
 ##### IT TO HMI,SCADA AND JUMP SERVER
-![[pingafterIT.png]]
+![Ping test IT](../Evidence/pingafterIT.png)
 
 After implementing ACL rules and VLAN segmentation, inter-VLAN communication has failed.Connectivity tests indicate that devices on the IT network cannot reach devices on the OT network.
