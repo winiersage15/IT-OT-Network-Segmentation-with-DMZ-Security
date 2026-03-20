@@ -27,9 +27,9 @@ The IT network remained isolated from the OT network, allowing only specific com
 The architecture of the laboratory follows principles of the
 Purdue Enterprise Reference Architecture to structure the layers of the industrial network.
 
-![[topologypackettracer.png]]
+![Network Topology](Evidence/topologypackettracer.png)
 
-![[DiagramDraw.png]]
+![Architecture Diagram](Evidence/DiagramDraw.png)
 
 ## **STANDAR AND REFERENCE FRAMES**
 Based on NIST SP 800-82 and IEC 62443 standards, this project implements network segmentation in industrial environments. It utilizes level-based isolation and a DMZ following the Purdue Model, adding a robust security layer to the cyber-environment while ensuring a scalable architectural projection.
