@@ -8,18 +8,18 @@ The router utilizes an ACL configuration to function as a logical firewall, filt
 ## **BEFORE ACL AND VLANS**
 
 ##### JUMP SERVER TO HMI AND SCADA
-![[pingbeforeJUMPSERVER.png]]
+![Ping before Jump Server](../Evidence/pingbeforeJUMPSERVER.png)
 
 ##### HMI TO JUMP SERVER
-![[pingbeforeOT.png]]
+![Ping before OT](../Evidence/pingbeforeOT.png)
 
 Before implementing ACL rules and VLAN segmentation, all networks were able to communicate without restrictions.Connectivity test show that devices from the IT network could directly reach devices in the OT network.
 
 ## **AFTER ACL AND VLANS**
 
 ##### JUMP SERVER TO HMI AND SCADA
-![[pingafterJUMPSERVER.png]]
+![Ping after Jump Server](../Evidence/pingafterJUMPSERVER.png)
 ##### HMI TO JUMP SERVER
-![[ping afterOT.png]]
+![Ping after OT](Evidence/pingafterOT.png)
 
 After implementing ACL rules and VLAN segmentation, inter-VLAN communication has failed.Connectivity tests indicate that devices on the JUMP SERVER network cannot reach devices on the OT network.
